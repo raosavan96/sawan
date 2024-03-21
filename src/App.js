@@ -7,7 +7,7 @@ import TextForm from './componets/TextForm';
 function App() {
   return (
     <>
-      <Navbar title="TextUtils" />
+      <Navbar title="sawan" />
       <div className="container">
         <TextForm heading = "Enter the text to analyze" />
       </div>

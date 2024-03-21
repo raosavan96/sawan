@@ -25,6 +25,7 @@ export default function TextForm(props) {
 
 
     const [text, setText] = useState('');
+    
     return (
         <>
             <div className="mb-3 container">
