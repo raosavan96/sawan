@@ -10,7 +10,7 @@ import Details from './componets/Details';
 function App() {
   return (
     <>
-      <Navbar title="Utiltext" />
+      <Navbar title="Utiltext up" />
       {/* <div className="container">
         <TextForm heading = "Enter the text to analyze" />
       </div> */}
