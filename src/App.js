@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './componets/Navbar';
-// import TextForm from './componets/TextForm';
+import TextForm from './componets/TextForm';
 import Details from './componets/Details';
 
 
@@ -10,10 +10,10 @@ import Details from './componets/Details';
 function App() {
   return (
     <>
-      <Navbar title="Utiltext update" />
-      {/* <div className="container">
+      <Navbar title="Utiltext (Text-t)" />
+      <div className="container">
         <TextForm heading = "Enter the text to analyze" />
-      </div> */}
+      </div>
       <Details />
     
     </>
