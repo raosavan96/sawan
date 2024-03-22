@@ -18,6 +18,11 @@ export default function TextForm(props) {
         setText(newText);
     }
 
+    const hendleClearClick = () => {
+        // console.log("Uppercase was Clicked" + text);
+        let newText = " ";
+        setText(newText);
+    }
     const hendleOnChange = (event) => {
         console.log("On change");
         setText(event.target.value);
@@ -25,7 +30,7 @@ export default function TextForm(props) {
 
 
     const [text, setText] = useState('');
-    
+
     return (
         <>
             <div className="mb-3 container">
@@ -33,6 +38,8 @@ export default function TextForm(props) {
                 <textarea className="form-control" value={text} onChange={hendleOnChange} id="myBox" rows="10"></textarea>
                 <button className="btn btn-primary mt-3" onClick={hendleUpClick}>Convert to Upercase</button>
                 <button className="btn btn-primary mt-3 ms-4" onClick={hendleLoClick}>Convert to Lowercase</button>
+                <button className="btn btn-primary mt-3 ms-4" onClick={hendleClearClick}>Clear Text</button>
+
                 {/* <Hey /> */}
             </div>
 
